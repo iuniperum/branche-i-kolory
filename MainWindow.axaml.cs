@@ -53,7 +53,6 @@ public partial class MainWindow : Window
             }
             obraz.Source = bitmap;
         }
-        test.InnerLeftContent = "zielony";
     }
     
     public void invert (object sender, RoutedEventArgs e) {

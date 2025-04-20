@@ -68,6 +68,5 @@
                 </Image.RenderTransform>
             </Image>
         </Panel>
-        <TextBox x:Name="test" Grid.Column="1" Grid.Row="7"></TextBox>
     </Grid>
 </Window>
