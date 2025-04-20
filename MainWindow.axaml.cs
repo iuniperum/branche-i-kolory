@@ -38,17 +38,6 @@ public partial class MainWindow : Window
         
     }
     
-    public void rotate90 (object sender, RoutedEventArgs e) {
-        
-    }
-    
-    public void rotate180 (object sender, RoutedEventArgs e) {
-        
-    }
-    
-    public void rotate270 (object sender, RoutedEventArgs e) {
-        
-    }
     
     public void invert (object sender, RoutedEventArgs e) {
         
