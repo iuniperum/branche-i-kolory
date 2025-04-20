@@ -35,7 +35,8 @@ public partial class MainWindow : Window
     }
 
     public void rotate(object sender, RoutedEventArgs e) {
-        
+        RotateTransform obrot = new RotateTransform(stopien);
+        obraz.RenderTransform = obrot;
     }
     
     

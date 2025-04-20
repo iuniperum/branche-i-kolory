@@ -30,7 +30,7 @@
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="ONLY GREEN"/>
-        <Button Grid.Row="3" Click="rotate180"
+        <Button Grid.Row="3" 
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="UPSIDE DOWN"/>
