@@ -25,10 +25,6 @@ public partial class MainWindow : Window
         bitmap = WriteableBitmap.Decode(fs);
         obraz.Source = bitmap;
     }
-    
-    public void green (object sender, RoutedEventArgs e) {
-        
-    }
 
     public void upside(object sender, RoutedEventArgs e) {
         RotateTransform obrot = new RotateTransform(180);
