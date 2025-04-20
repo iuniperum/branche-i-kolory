@@ -54,10 +54,6 @@ public partial class MainWindow : Window
             obraz.Source = bitmap;
         }
     }
-    
-    public void invert (object sender, RoutedEventArgs e) {
-        
-    }
 
     public void rotate(object sender, RoutedEventArgs e) {
         RotateTransform obrot = new RotateTransform(stopien);
