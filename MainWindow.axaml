@@ -30,7 +30,7 @@
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="ONLY GREEN"/>
-        <Button Grid.Row="3" 
+        <Button Grid.Row="3" Click="upside"
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="UPSIDE DOWN"/>
@@ -68,6 +68,5 @@
                 </Image.RenderTransform>
             </Image>
         </Panel>
-        <TextBox x:Name="test" Grid.Column="1" Grid.Row="7"></TextBox>
     </Grid>
 </Window>

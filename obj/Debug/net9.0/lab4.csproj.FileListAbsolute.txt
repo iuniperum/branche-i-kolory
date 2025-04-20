@@ -70,3 +70,4 @@
 /home/hoda/RiderProjects/lab4/lab4/bin/Debug/net9.0/ReactiveUI.dll
 /home/hoda/RiderProjects/lab4/lab4/bin/Debug/net9.0/Splat.dll
 /home/hoda/RiderProjects/lab4/lab4/bin/Debug/net9.0/System.Reactive.dll
+/home/hoda/RiderProjects/lab4/lab4/bin/Debug/net9.0/AvaloniaPixelSnoop.dll
