@@ -10,7 +10,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="50"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -21,25 +21,53 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button Grid.Row="0" Click="load"
+        <TextBlock Grid.Column="1"></TextBlock>
+        <Button Grid.Row="1" Click="load"
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center" 
                 Content="LOAD"/>
-        <Button Grid.Row="1" Click="green"
+        <Button Grid.Row="2" Click="green"
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="ONLY GREEN"/>
-        <Button Grid.Row="2" Click="rotate180"
+        <Button Grid.Row="3" Click="rotate180"
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="UPSIDE DOWN"/>
-        <Button Grid.Row="3" Click="invert"
+        <Button Grid.Row="4" Click="invert"
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="INVERT COLOURS"/>
-        <Button Grid.Row="4" Click="rotate"
+        <Button Grid.Row="5" Click="rotate"
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="ROTATE"/>
+        <ComboBox Grid.Row="6" Grid.Column="0" Width="200" x:Name="stopnie" HorizontalAlignment="Center" SelectionChanged="wybor_stopnia">
+            <ComboBoxItem>
+                <StackPanel>
+                    <TextBlock Text="90°" Tag="90"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel>
+                    <TextBlock Text="180°" Tag="180"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel>
+                    <TextBlock Text="270°" Tag="270"/>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
+        <TextBlock Grid.Row="6" Grid.Column="1"  ></TextBlock>
+        <Panel Grid.Column="1" Grid.Row="3">
+            <Rectangle Height="300" Width="300"/>
+            <Image x:Name="obraz" Margin="20" Height="200" Width="200" Source="">
+                <Image.RenderTransform>
+                    <RotateTransform Angle="0" />
+                </Image.RenderTransform>
+            </Image>
+        </Panel>
+        <TextBox x:Name="test" Grid.Column="1" Grid.Row="7"></TextBox>
     </Grid>
 </Window>
