@@ -355,6 +355,18 @@
           }
         }
       },
+      "AvaloniaPixelSnoop/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.1.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/AvaloniaPixelSnoop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AvaloniaPixelSnoop.dll": {}
+        }
+      },
       "DynamicData/8.4.1": {
         "type": "package",
         "dependencies": {
@@ -1122,6 +1134,19 @@
         "lib/netstandard2.0/Avalonia.X11.xml"
       ]
     },
+    "AvaloniaPixelSnoop/1.0.0": {
+      "sha512": "V2M4/uFVf7pYLM6994hYkUKGXGFhLBZqI6XnKLDNjGoHDXlCs0n+L7PtB7IJvus9cXI3rNyB9pC64KffAsRPHA==",
+      "type": "package",
+      "path": "avaloniapixelsnoop/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "avaloniapixelsnoop.1.0.0.nupkg.sha512",
+        "avaloniapixelsnoop.nuspec",
+        "lib/netstandard2.0/AvaloniaPixelSnoop.dll"
+      ]
+    },
     "DynamicData/8.4.1": {
       "sha512": "Mn1+fU/jqxgONEJq8KLQPGWEi7g/hUVTbjZyn4QM0sWWDAVOHPO9WjXWORSykwdfg/6S3GM15qsfz+2EvO+QAQ==",
       "type": "package",
@@ -1737,7 +1762,8 @@
       "Avalonia.Diagnostics >= 11.2.1",
       "Avalonia.Fonts.Inter >= 11.2.1",
       "Avalonia.ReactiveUI >= 11.2.1",
-      "Avalonia.Themes.Fluent >= 11.2.1"
+      "Avalonia.Themes.Fluent >= 11.2.1",
+      "AvaloniaPixelSnoop >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1806,6 +1832,10 @@
           "Avalonia.Themes.Fluent": {
             "target": "Package",
             "version": "[11.2.1, )"
+          },
+          "AvaloniaPixelSnoop": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
