@@ -12,7 +12,6 @@ namespace lab4;
 
 public partial class MainWindow : Window
 {
-    private WriteableBitmap bitmap;
     private double stopien = 0;
     public MainWindow()
     {
