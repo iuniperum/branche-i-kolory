@@ -34,7 +34,7 @@
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="UPSIDE DOWN"/>
-        <Button Grid.Row="4" Click="invert"
+        <Button Grid.Row="4" 
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="INVERT COLOURS"/>
