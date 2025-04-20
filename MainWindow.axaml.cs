@@ -27,19 +27,6 @@ public partial class MainWindow : Window
         obraz.Source = bitmap;
     }
     
-    private void wybor_stopnia(object sender, RoutedEventArgs args) {
-        if (stopnie.SelectedItem is ComboBoxItem item)
-        {
-            if (item.Content is StackPanel panel)
-            {
-                if (panel.Children[0] is TextBlock text)
-                {
-                    stopien = Convert.ToDouble(text.Tag);
-                }
-            }
-        }
-    }
-    
     public void green (object sender, RoutedEventArgs e) {
         using (var snoop = new BmpPixelSnoop(bitmap)) {
             for (int x = 0; x < bitmap.PixelSize.Width; x++)
@@ -53,10 +40,5 @@ public partial class MainWindow : Window
             }
             obraz.Source = bitmap;
         }
-    }
-
-    public void rotate(object sender, RoutedEventArgs e) {
-        RotateTransform obrot = new RotateTransform(stopien);
-        obraz.RenderTransform = obrot;
     }
 }

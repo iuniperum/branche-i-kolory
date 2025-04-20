@@ -38,11 +38,11 @@
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="INVERT COLOURS"/>
-        <Button Grid.Row="5" Click="rotate"
+        <Button Grid.Row="5" 
                 Margin="10"
                 Width="150" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
                 Content="ROTATE"/>
-        <ComboBox Grid.Row="6" Grid.Column="0" Width="200" x:Name="stopnie" HorizontalAlignment="Center" SelectionChanged="wybor_stopnia">
+        <ComboBox Grid.Row="6" Grid.Column="0" Width="200" x:Name="stopnie" HorizontalAlignment="Center" >
             <ComboBoxItem>
                 <StackPanel>
                     <TextBlock Text="90°" Tag="90"/>
